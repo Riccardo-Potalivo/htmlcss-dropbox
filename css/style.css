@@ -1,0 +1,39 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: solid 1px black;
+}
+
+/* palette color */
+:root {
+	--color-primary-color-1: #0061ff;
+	--color-secondary-color-1: #b4d0e7;
+	--color-neutral-black: #000000;
+	--color-neutral-white: #ffffff;
+	--color-color-box-1: #a2d39b;
+	--color-color-box-1-1: #d1e9cd;
+	--color-color-box-2: #61082b;
+	--color-color-box-3: #0093ce;
+	--color-color-box-4: #ff1c1c;
+	--color-color-box-5: #f5f5f5;
+	--color-color-box-6: #d5001f;
+	--color-color-box-7: #b4d0e7;
+	--color-color-box-8: #0d2481;
+	--color-color-box-9: #ffd830;
+}
+
+/* Variables  */
+
+
+/* general */
+
+
+/* header */
+
+
+/* main */
+
+
+/* footer */
