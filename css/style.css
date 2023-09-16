@@ -1,4 +1,5 @@
-* {
+* 
+{
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -7,7 +8,8 @@
 }
 
 /* palette color */
-:root {
+:root 
+{
 	--primary-color-1: #0061ff;
 	--secondary-color-1: #b4d0e7;
 	--neutral-black: #000000;
@@ -25,7 +27,8 @@
 }
 
 /* Variables  */
-:root {
+:root 
+{
     --text-color: var(--neutral-black);
     --gap-s: 40px;
     --padding-s: 20px;
@@ -34,29 +37,40 @@
 
 
 /* flex */
-.d-flex {
+.d-flex 
+{
     display: flex;
 }
 
-.j-c-s-between {
+.f-wrap
+{
+    flex-wrap: wrap;
+}
+
+.j-c-s-between 
+{
     justify-content: space-between;
 }
 
-.a-c-center {
+.a-c-center 
+{
     align-content: center;
 }
 
-.a-i-center {
+.a-i-center 
+{
     align-items: center;
 }
 
 
 /* utility */
-.p-relative {
+.p-relative 
+{
     position: relative;
 }
 
-.center-element {
+.center-element 
+{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -66,16 +80,19 @@
 
 /* general */
 
-a {
+a 
+{
     text-decoration: none;
     color: var(--text-color);
 }
 
-img {
+img 
+{
     display: block;
 }
 
-.button-blue {
+.button-blue 
+{
     background-color: var(--primary-color-1);
     --text-color: var(--neutral-white);
     padding: 10px;
@@ -83,21 +100,50 @@ img {
 
 
 /* header */
-header {
+header 
+{
     background-color: var(--secondary-color-1);
 }
 
     /* navigation bar */
-    nav {
+    nav 
+    {
         background-color: var(--neutral-white);
         height: 80px;
         padding: 0 var(--padding-s);
     }
 
-    nav>div {
+    nav>div 
+    {
         gap: var(--gap-s);
     }
 
+    /* hero section */
+    .hero-section
+    {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .jumbo-text
+    {
+        height: 400px;
+        width: 30%;
+        min-width: 300px;
+        background-color: red;
+    }
+    
+    .jumbo-img
+    {
+        width: 70%;
+    }
+
+    .hero-section img
+    {
+        position: absolute;
+        background-color: green;
+        width: 100%;
+    }
 
 
 /* main */
