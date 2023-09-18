@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: solid 1px black; */
+    border: solid 1px black;
 }
 
 /* palette color */
@@ -122,11 +122,24 @@ img
     display: inline-block;
 }
 
+.container-l
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-s
+{
+    max-width: 1000px;
+    margin: auto;
+}
+
 
 /* header */
 header 
 {
     background-color: var(--secondary-color-1);
+    padding: 0 var(--space-s);
 }
 
     /* navigation bar */
@@ -156,8 +169,6 @@ header
     
     .hero-section
     {
-        max-width: 1200px;
-        margin: auto;
         padding-top: 90px;
         margin-top: var(--nav-height);
     }
