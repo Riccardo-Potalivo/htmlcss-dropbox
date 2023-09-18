@@ -193,6 +193,20 @@ h6
     display: block;
 }
 
+.button-white 
+{
+    /* background-color: var(--primary-color-1);
+    --text-color: var(--neutral-white); */
+    padding: 10px 12px;
+    display: inline-block;
+}
+
+
+.border-black
+{
+    border: solid 2px var(--neutral-black);
+}
+
 .border-gray
 {
     border: solid 2px var(--neutral-dark);
@@ -278,61 +292,86 @@ main .container-s>*
     margin-bottom: var(--space-xxl);
 }
 
-.link-blue
-{
-    color: var(--primary-color-1);
-    text-decoration: underline;
-}
+    /* piano business secion */
 
-.piano-business span,
-.piano-business p
-{
-    font-size: 0.9em;
-}
+    .link-blue
+    {
+        color: var(--primary-color-1);
+        text-decoration: underline;
+    }
 
-.radio-button label
-{
-    margin-right: var(--space-m);
-}
+    .piano-business span,
+    .piano-business p
+    {
+        font-size: 0.9em;
+    }
 
-input[type=radio] {
-    transform: scale(1.5);
-    margin-right: 10px;
-}
+    .radio-button label
+    {
+        margin-right: var(--space-m);
+    }
+
+    input[type=radio] {
+        transform: scale(1.5);
+        margin-right: 10px;
+    }
 
 
-.vertical-card
-{
-    width: var(--width-1-3);
-}
+    .vertical-card
+    {
+        width: var(--width-1-3);
+    }
 
-.card-header
-{
-    height: var(--space-m);
-    border-bottom: solid 2px var(--neutral-dark);
-}
+    .card-header
+    {
+        height: var(--space-m);
+        border-bottom: solid 2px var(--neutral-dark);
+    }
 
-.card-main
-{
-    padding: var(--space-s);
-}
+    .card-main
+    {
+        padding: var(--space-s);
+    }
 
-#card-section li
-{
-    margin-top: var(--space-xs);
-}
+    #card-section li
+    {
+        margin-top: var(--space-xs);
+    }
 
-.divider-gray-s
-{
-    border-bottom: solid 2px var(--neutral-dark);
-    width: var(--space-m);
-    margin: var(--space-m) 0;
-}
+    .divider-gray-s
+    {
+        border-bottom: solid 2px var(--neutral-dark);
+        width: var(--space-m);
+        margin: var(--space-m) 0;
+    }
 
-.fa-check
-{
-    color: var(--primary-color-1);
-    -webkit-text-stroke: 1px;
-}
+    .fa-check
+    {
+        color: var(--primary-color-1);
+        -webkit-text-stroke: 1px;
+    }
+
+    /* trova partner section */
+    .trova-partner
+    {
+        width: 100%;
+    }
+    .image-partner
+    {
+        width: 60%;
+    }
+    
+    .image-partner>img
+    {
+        width: 100%;
+    }
+
+    .description-partner
+    {
+        padding: var(--space-m);
+        width: 40%;
+    }
+
+
 
 /* footer */
