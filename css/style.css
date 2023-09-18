@@ -175,6 +175,11 @@ h6
     font-size: 0.9em;
 }
 
+.image-100
+{
+    width: 100%;
+}
+
 .button-blue 
 {
     background-color: var(--primary-color-1);
@@ -317,7 +322,7 @@ main .container-s>*
     }
 
 
-    .vertical-card
+    .card-width-1-3
     {
         width: var(--width-1-3);
     }
@@ -352,18 +357,9 @@ main .container-s>*
     }
 
     /* trova partner section */
-    .trova-partner
-    {
-        width: 100%;
-    }
     .image-partner
     {
         width: 60%;
-    }
-    
-    .image-partner>img
-    {
-        width: 100%;
     }
 
     .description-partner
@@ -371,7 +367,6 @@ main .container-s>*
         padding: var(--space-m);
         width: 40%;
     }
-
 
 
 /* footer */
