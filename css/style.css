@@ -13,6 +13,7 @@
 {
 	--primary-color-1: #0061ff;
 	--secondary-color-1: #b4d0e7;
+	--secondary-color-2: #610528;
 	--neutral-black: #000000;
 	--neutral-darker: #aaaaaa;
 	--neutral-dark: #dddddd;
@@ -123,6 +124,11 @@
     margin-bottom: var(--space-xl);
 }
 
+.margin-bottom-xxl
+{
+    margin-bottom: var(--space-xxl);
+}
+
 .icons-m
 {
     font-size: 15px; 
@@ -205,8 +211,15 @@ h6
 
 .button-white 
 {
-    /* background-color: var(--primary-color-1);
-    --text-color: var(--neutral-white); */
+    background-color: var(--neutral-white);
+    padding: 10px 12px;
+    display: block;
+    text-align: center;
+}
+
+.button-white-card
+{
+    background-color: var(--neutral-white);
     padding: 10px 12px;
     display: inline-block;
 }
@@ -295,11 +308,6 @@ main
 {
     padding: var(--space-xxl) var(--space-s) 0;
     
-}
-
-main .container-s>*
-{
-    margin-bottom: var(--space-xxl);
 }
 
     /* piano business secion */
@@ -393,11 +401,21 @@ main .container-s>*
         max-height: 100%;
     }
 
-    svg
+    .box-logo-white
     {
         width: 50%;
-        z-index: 10;
-        fill: var(--neutral-white);
+        filter: invert(1);
+    }
+
+    .box-logo-50
+    {
+        width: 50%;
+        min-width: 200px;
+    }
+
+    .fill-black
+    {
+        fill: var(--neutral-black);
     }
     
     #box-1
@@ -429,5 +447,63 @@ main .container-s>*
     {
         background-color: var(--color-box-4);
     }
+    
+    #box-5
+    {
+        background-color: var(--color-box-5);
+        padding: var(--space-xl);
+        overflow-y: scroll;
+    }
+
+    .divider-gray-xxl
+    {
+        border-bottom: solid 2px var(--neutral-dark);
+        width: var(--space-xxl);
+        margin: var(--space-m) 0;
+    }
+    
+    #box-6
+    {
+        background-color: var(--color-box-6);
+    }
+    
+    #box-7
+    {
+        background-color: var(--color-box-7);
+    }
+    
+    #box-8
+    {
+        background-color: var(--color-box-8);
+    }
+    
+    #box-9
+    {
+        background-color: var(--color-box-9);
+    }
+    
+    #box-10
+    {
+        background-color: var(--secondary-color-1);
+        height: 400px;
+        align-content: center;
+
+    }
+    
+    
+    #box-10 .width-50
+    {
+        color: var(--secondary-color-2);
+        width: 50%;
+        margin: 0;
+        display: block;
+    }
+    
+    /* #box-10 .d-flex
+    {
+        height: 100%;
+        align-content: center;
+        
+    } */
 
 /* footer */
