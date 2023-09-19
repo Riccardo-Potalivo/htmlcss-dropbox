@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/dropbox_tile_logo_icon_168230.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <!-- font noto sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,10 +22,13 @@
         <nav class="d-flex j-c-s-between">
 
             <div class="d-flex j-c-s-center">
-                <div class="nav-element-box "><img src="img/logo-small.png" alt="logo" class="nav-element"></div>
+                <div class="d-flex a-i-center">
+                    <a href="#"><img src="img/logo-small.png" alt="logo" class="nav-element"></a>
+                </div>
                 <div class="nav-element-box p-relative">
                     <a href="" class="nav-element">Perché Dropbox</a>
                     <div class="nav-dropdown">
+                        
                         <div class="d-flex">
                             <ul>
                                 <li><h6>Panoramica</h6></li>
@@ -411,24 +415,54 @@
             <section class="faq margin-bottom-xxl">
 
                 <h2>Domande frequenti</h2>
-                <div class="divider-gray"></div>
-                <div class="d-flex j-c-s-between a-i-center">
-                    <h5>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
-                    <a href="#faq-01" class="faq-caret"><i class="fa-solid fa-caret-down"></i></a>
-                </div>
-                <div class="divider-gray"></div>
-                <div class="d-flex j-c-s-between a-i-center">
-                    <h5>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
-                    <a href="#faq-01" class="faq-caret"><i class="fa-solid fa-caret-down"></i></a>
+                
+                <ul id="accordion">
 
-                </div>
-                <div class="divider-gray"></div>
-                <div class="d-flex j-c-s-between a-i-center">
-                    <h5>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
-                    <a href="#faq-01" class="faq-caret"><i class="fa-solid fa-caret-down"></i></a>
+                    <div class="divider-gray"></div>
 
-                </div>
-                <div class="divider-gray"></div>
+                    <li>
+                        <label for="first">
+                            <h5>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
+                            <i class="fa-solid fa-caret-down"></i>                    
+                        </label>
+                        <input type="radio" name="accordion" id="first">
+                        <div class="accordion-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi accusamus iste maxime vitae eligendi voluptatum distinctio explicabo debitis mollitia aut.</p>
+                        </div>
+                    </li>
+
+                    <div class="divider-gray"></div>
+                    
+                    <li>
+                        <label for="second">
+                            <h5>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </label>
+                        <input type="radio" name="accordion" id="second">
+                        <div class="accordion-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi accusamus iste maxime vitae eligendi voluptatum distinctio explicabo debitis mollitia aut.</p>
+                        </div>
+                    </li>
+
+                    <div class="divider-gray"></div>
+
+                    <li>
+                        <label for="third">
+                            <h5>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </label>
+                        <input type="radio" name="accordion" id="third">
+                        <div class="accordion-content">                            
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi accusamus iste maxime vitae eligendi voluptatum distinctio explicabo debitis mollitia aut.</p>
+                        </div>
+
+                        <div class="divider-gray"></div>
+
+                    </li>
+
+                </ul>
+
+
             </section>
             
         </div>
