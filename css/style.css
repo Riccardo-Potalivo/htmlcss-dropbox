@@ -62,14 +62,14 @@
     justify-content: space-between;
 }
 
+.j-c-s-center 
+{
+    justify-content: center;
+}
+
 .a-c-center 
 {
     align-content: center;
-}
-
-.a-i-center 
-{
-    align-items: center;
 }
 
 .a-i-center 
@@ -275,12 +275,24 @@ header
         z-index: 1000;
         background-color: var(--neutral-white);
         height: var(--nav-height);
-        padding: 0 var(--space-xs);
+        padding-right: var(--space-xs);
     }
 
-    nav>div 
+    /* nav>div 
     {
         gap: var(--space-m);
+    } */
+
+    .nav-element-box
+    {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-element
+    {
+        padding: var(--space-xs);
+        align-items: center;
     }
 
     /* hero section */
@@ -540,7 +552,6 @@ footer select
 {
     background-color: var(--neutral-black);
     border: none;
-    appearance: none;
     font-family: inherit;
     font-size: inherit;
     color: inherit;
