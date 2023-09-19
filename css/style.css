@@ -14,6 +14,8 @@
 	--primary-color-1: #0061ff;
 	--secondary-color-1: #b4d0e7;
 	--secondary-color-2: #610528;
+	--secondary-color-3: #f2eee8;
+	--secondary-color-4: #e7e0d7;
 	--neutral-black: #000000;
 	--neutral-darker: #aaaaaa;
 	--neutral-dark: #dddddd;
@@ -42,7 +44,6 @@
     --space-m: 40px;
     --space-xl: 60px;
     --space-xxl: 120px;
-
 }
 
 
@@ -262,7 +263,7 @@ h6
 header 
 {
     background-color: var(--secondary-color-1);
-    padding: 0 var(--space-s);
+    padding: 0 var(--space-xs);
 }
 
     /* navigation bar */
@@ -278,11 +279,6 @@ header
         padding-right: var(--space-xs);
     }
 
-    /* nav>div 
-    {
-        gap: var(--space-m);
-    } */
-
     .nav-element-box
     {
         display: flex;
@@ -294,6 +290,51 @@ header
         padding: var(--space-xs);
         align-items: center;
     }
+
+    /* bonus */
+    .nav-dropdown
+    {
+        position: absolute;
+        padding: 15px 0;
+        width: 520px;
+        background-color: var(--secondary-color-3);
+        top: var(--nav-height);
+        display: none;
+    }
+    
+        .nav-dropdown ul
+        {
+            width: 50%;
+        }
+
+    .nav-dropdown li>*
+    {
+        padding: 5px 20px;
+        display: block;
+    }
+
+    .nav-dropdown a
+    {
+        font-size: 0.8rem;
+    }
+
+    .nav-dropdown a:hover
+    {
+        background-color: var(--secondary-color-4);
+    }
+
+
+    .nav-element-box:hover
+    {
+        background-color: var(--secondary-color-3);
+    }
+
+    .nav-element-box:hover
+    .nav-dropdown
+    {
+        display: inline-block;
+    }
+
 
     /* hero section */
     .hero-section
@@ -426,8 +467,8 @@ main
 
     .box-logo-50
     {
-        width: 50%;
-        min-width: 200px;
+        width: 70%;
+        max-width: 250px;
     }
 
     .fill-black
@@ -475,7 +516,8 @@ main
     .divider-gray-xxl
     {
         border-bottom: solid 2px var(--neutral-dark);
-        width: var(--space-xxl);
+        /* max-width: var(--space-xxl); */
+        width: 20%;
         margin: var(--space-m) 0;
     }
     
